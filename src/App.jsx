@@ -29,7 +29,7 @@ function App() {
   return (
     <main>
       <nav>
-        <p>I'm a nav for mobile layout</p>
+        <p>I'm a nav for mobile layout, and for table layout.</p>
       </nav>
    
         
