@@ -23,6 +23,10 @@ function App() {
   // updateing / working on the project tasks:
 
     // create and switch to new branch: (git branch x; git checkout x; / git checkout -b x)
+    // stage changes: git add .
+    // commit changes: git commit - 'update bla'
+    // push changes "if wasn't pushed into origing": git push origin x
+    
 
 
 
