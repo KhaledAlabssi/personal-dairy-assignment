@@ -8,36 +8,36 @@ function App() {
 
 
   // Git instructions:
-  // - create repo on github
-  // - cloned the project to our machine
-  // - init react app
-  // - stage and commit the changes
-  // - push it to origin
-  
+
+  // createing / initiating the project
+
+    // - create repo on github
+    // - cloned the project to our machine
+    // - init react app
+    // - stage the changes: git add .
+    // - commit the changes: git commit -m 'first commit'
+    // - push it to origin: git push
+    // ======
+
+
+  // updateing / working on the project tasks:
+
+    // create and switch to new branch: (git branch x; git checkout x; / git checkout -b x)
+    // stage changes: git add .
+    // commit changes: git commit - 'update bla'
+    // push changes "if wasn't pushed into origing": git push origin x
+
+
+
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main>
+      <nav>
+        <p>I'm a nav for mobile layout, and for table layout, and now we haveing for the Desktop layout.</p>
+      </nav>
+   
+        
+    </main>
   )
 }
 
