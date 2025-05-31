@@ -26,14 +26,14 @@ function App() {
     // stage changes: git add .
     // commit changes: git commit - 'update bla'
     // push changes "if wasn't pushed into origing": git push origin x
-    
+
 
 
 
   return (
     <main>
       <nav>
-        <p>I'm a nav for mobile layout, and for table layout.</p>
+        <p>I'm a nav for mobile layout, and for table layout, and now we haveing for the Desktop layout.</p>
       </nav>
    
         
